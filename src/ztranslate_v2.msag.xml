@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZTRANSLATE_V2</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Übersetzung API Schnittstelle</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZTRANSLATE_V2</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>HTTP-Verbindungsfehler &amp;2 (Code &amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZTRANSLATE_V2</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Status-Code &amp;1 (&amp;2) empfangen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZTRANSLATE_V2</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Laden der Vorschläge fehlgeschlagen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZTRANSLATE_V2</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Bitte markieren Sie eine Zeile.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZTRANSLATE_V2</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Keine weiteren Vorschläge gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZTRANSLATE_V2</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Übersetzung gesichert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZTRANSLATE_V2</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Einstellungen gesichert</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZTRANSLATE_V2</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Text kann nicht gelesen werden.</TEXT>
+    </T100>
+   </T100>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>ZTRANSLATE_V2001</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZTRANSLATE_V2001</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Es wurde der HTTP-Status Code &amp;V1&amp; empfangen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Statuscodes 400 - 499 sind clientseitige Fehler, 500 - 599 serverseitige</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> Fehler.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
