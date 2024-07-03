@@ -4,6 +4,7 @@
   <asx:values>
    <AREAT>Übersetzung Einstellungen</AREAT>
    <INCLUDES>
+    <SOBJ_NAME>LZTRANS_V2_SETTTOP</SOBJ_NAME>
     <SOBJ_NAME>SAPLZTRANS_V2_SETT</SOBJ_NAME>
    </INCLUDES>
   </asx:values>

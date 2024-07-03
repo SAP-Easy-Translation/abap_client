@@ -111,7 +111,7 @@ CLASS ztranslator_v2 DEFINITION
     METHODS add_to_wb_transport
       IMPORTING
         object_key                TYPE lxe_colob
-        source_lang               TYPE lxeisolang
+        target_lang               TYPE lxeisolang
       CHANGING
         wb_transport_entries      TYPE tt_e071
         wb_transport_view_entries TYPE e071k_t.
@@ -144,7 +144,7 @@ CLASS ZTRANSLATOR_V2 IMPLEMENTATION.
 
     CALL FUNCTION 'LXE_OBJ_CREATE_TRANSPORT_ENTRY'
       EXPORTING
-        language = source_lang
+        language = target_lang
         custmnr  = object_key-custmnr
         objtype  = object_key-objtype
         objname  = object_key-objname
@@ -461,7 +461,7 @@ CLASS ZTRANSLATOR_V2 IMPLEMENTATION.
       add_to_wb_transport(
         EXPORTING
           object_key = object->*-key
-          source_lang = source_lang
+          target_lang = target_lang
         CHANGING
           wb_transport_entries = wb_transport_entries
           wb_transport_view_entries = wb_transport_view_entries ).
